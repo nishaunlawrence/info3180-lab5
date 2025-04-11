@@ -1,0 +1,90 @@
+2025-04-10 11:47:01.757 EST [5532] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-04-10 11:47:01.760 EST [5532] LOG:  listening on IPv6 address "::1", port 5432
+2025-04-10 11:47:01.760 EST [5532] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-04-10 11:47:01.760 EST [5532] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-04-10 11:47:01.762 EST [5533] LOG:  database system was shut down at 2025-04-10 11:46:50 EST
+2025-04-10 11:47:01.764 EST [5532] LOG:  database system is ready to accept connections
+2025-04-10 11:47:12.686 EST [5558] FATAL:  role "postgres" does not exist
+2025-04-10 11:47:13.024 EST [5560] FATAL:  role "postgres" does not exist
+2025-04-10 11:47:43.838 EST [5617] FATAL:  role "postgres" does not exist
+2025-04-10 11:47:43.839 EST [5618] FATAL:  role "postgres" does not exist
+2025-04-10 11:48:28.896 EST [5670] FATAL:  lock file "postmaster.pid" already exists
+2025-04-10 11:48:28.896 EST [5670] HINT:  Is another postmaster (PID 5532) running in data directory "/Users/nishaunlawrence/postgres_data"?
+2025-04-10 11:50:19.600 EST [5532] LOG:  received smart shutdown request
+2025-04-10 11:50:19.602 EST [5532] LOG:  background worker "logical replication launcher" (PID 5539) exited with exit code 1
+2025-04-10 11:50:19.602 EST [5534] LOG:  shutting down
+2025-04-10 11:50:19.606 EST [5532] LOG:  database system is shut down
+2025-04-10 11:50:33.354 EST [5739] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-04-10 11:50:33.356 EST [5739] LOG:  listening on IPv6 address "::1", port 5432
+2025-04-10 11:50:33.356 EST [5739] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-04-10 11:50:33.357 EST [5739] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-04-10 11:50:33.360 EST [5740] LOG:  database system was shut down at 2025-04-10 11:50:19 EST
+2025-04-10 11:50:33.362 EST [5739] LOG:  database system is ready to accept connections
+2025-04-10 11:50:52.324 EST [5758] FATAL:  role "postgres" does not exist
+2025-04-10 11:50:52.636 EST [5760] FATAL:  role "postgres" does not exist
+2025-04-10 11:51:25.003 EST [5775] FATAL:  database "nishaunlawrence" does not exist
+2025-04-10 11:51:44.697 EST [5801] FATAL:  database "nishaunlawrence" does not exist
+2025-04-10 11:52:30.218 EST [5818] FATAL:  role "postgres" does not exist
+2025-04-10 12:00:19.734 EST [5976] FATAL:  role "postgres" does not exist
+2025-04-10 12:00:20.059 EST [5978] FATAL:  role "postgres" does not exist
+2025-04-10 12:01:17.265 EST [6016] FATAL:  database "lab5" does not exist
+2025-04-10 12:01:17.588 EST [6018] FATAL:  database "lab5" does not exist
+2025-04-10 12:07:58.742 EST [5739] LOG:  received fast shutdown request
+2025-04-10 12:07:58.742 EST [5739] LOG:  aborting any active transactions
+2025-04-10 12:07:58.743 EST [5739] LOG:  background worker "logical replication launcher" (PID 5746) exited with exit code 1
+2025-04-10 12:07:58.743 EST [5741] LOG:  shutting down
+2025-04-10 12:07:58.747 EST [5739] LOG:  database system is shut down
+2025-04-10 12:08:25.415 EST [6267] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-04-10 12:08:25.417 EST [6267] LOG:  listening on IPv6 address "::1", port 5432
+2025-04-10 12:08:25.417 EST [6267] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-04-10 12:08:25.417 EST [6267] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-04-10 12:08:25.419 EST [6268] LOG:  database system was shut down at 2025-04-10 12:08:15 EST
+2025-04-10 12:08:25.421 EST [6267] LOG:  database system is ready to accept connections
+2025-04-10 12:09:03.096 EST [6313] FATAL:  role "postgres" does not exist
+2025-04-10 12:09:03.415 EST [6315] FATAL:  role "postgres" does not exist
+2025-04-10 12:09:14.378 EST [6327] ERROR:  role "newuser" already exists
+2025-04-10 12:09:14.378 EST [6327] STATEMENT:  CREATE ROLE newuser WITH LOGIN SUPERUSER PASSWORD 'newpassword';
+2025-04-10 12:09:54.944 EST [6373] ERROR:  database "lab5" already exists
+2025-04-10 12:09:54.944 EST [6373] STATEMENT:  CREATE DATABASE lab5;
+2025-04-10 12:10:21.687 EST [6428] FATAL:  role "postgres" does not exist
+2025-04-10 12:10:22.013 EST [6430] FATAL:  role "postgres" does not exist
+2025-04-10 12:11:11.829 EST [6462] ERROR:  database "lab5" already exists
+2025-04-10 12:11:11.829 EST [6462] STATEMENT:  CREATE DATABASE lab5;
+2025-04-10 12:40:57.950 EST [7413] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:40:57.950 EST [7413] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 12:42:01.730 EST [6267] LOG:  received smart shutdown request
+2025-04-10 12:42:01.732 EST [6267] LOG:  background worker "logical replication launcher" (PID 6274) exited with exit code 1
+2025-04-10 12:42:01.732 EST [6269] LOG:  shutting down
+2025-04-10 12:42:01.754 EST [6267] LOG:  database system is shut down
+2025-04-10 12:47:59.219 EST [1575] LOG:  starting PostgreSQL 14.17 (Homebrew) on aarch64-apple-darwin24.2.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.6), 64-bit
+2025-04-10 12:47:59.221 EST [1575] LOG:  listening on IPv6 address "::1", port 5432
+2025-04-10 12:47:59.221 EST [1575] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-04-10 12:47:59.221 EST [1575] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-04-10 12:47:59.225 EST [1576] LOG:  database system was shut down at 2025-04-10 12:42:01 EST
+2025-04-10 12:47:59.228 EST [1575] LOG:  database system is ready to accept connections
+2025-04-10 12:50:12.863 EST [1654] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:50:12.863 EST [1654] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 12:50:14.346 EST [1654] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:50:14.346 EST [1654] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 12:50:14.492 EST [1654] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:50:14.492 EST [1654] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 12:50:15.074 EST [1654] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:50:15.074 EST [1654] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 12:50:15.329 EST [1654] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:50:15.329 EST [1654] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 12:50:15.578 EST [1654] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:50:15.578 EST [1654] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 12:50:15.878 EST [1654] ERROR:  relation "movie" does not exist at character 171
+2025-04-10 12:50:15.878 EST [1654] STATEMENT:  SELECT movie.id AS movie_id, movie.title AS movie_title, movie.description AS movie_description, movie.poster AS movie_poster, movie.created_at AS movie_created_at 
+	FROM movie
+2025-04-10 17:44:21.212 EST [1575] LOG:  received smart shutdown request
+2025-04-10 17:44:21.214 EST [1575] LOG:  background worker "logical replication launcher" (PID 1582) exited with exit code 1
+2025-04-10 17:44:21.214 EST [1577] LOG:  shutting down
+2025-04-10 17:44:21.237 EST [1575] LOG:  database system is shut down
